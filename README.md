@@ -24,9 +24,9 @@ Three distinct architectures were trained and optimized:
 
 | Model | Type | Architecture Details | Validation Accuracy |
 | :--- | :--- | :--- | :--- |
-| **Custom ResNet** | CNN (Deep Learning) | Custom-built Residual Blocks with Skip Connections to prevent signal degradation. Trained from scratch (not pre-trained). | **~92.8%** |
+| **Custom ResNet** | CNN (Deep Learning) | Custom-built Residual Blocks with Skip Connections to prevent signal degradation. Trained from scratch . | **~95.02%** |
 | **Optimized SVM** | Classical ML | Support Vector Machine with RBF Kernel. Hyperparameters tuned via GridSearchCV. | **~92.1%** |
-| **ANN** | MLP (Deep Learning) | Dense Neural Network with Dropout layers to prevent overfitting on flat vectors. | **~89.5%** |
+| **ANN** | MLP (Deep Learning) | Dense Neural Network with Dropout layers to prevent overfitting on flat vectors. | **~91.64%** |
 
 ### 3. Ensemble Deployment (Streamlit)
 The final deployment (`app.py`) integrates all three models using a **Majority Voting Mechanism**:
