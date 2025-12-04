@@ -1,0 +1,9 @@
+streamlit
+torch
+librosa
+numpy
+matplotlib
+scikit-learn
+joblib
+resampy
+ffmpeg-python
